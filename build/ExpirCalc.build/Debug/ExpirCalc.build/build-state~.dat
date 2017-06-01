@@ -1,0 +1,596 @@
+TExpirCalc
+v7
+r0
+t517794568.271300
+cCheck dependencies
+cProcessInfoPlistFile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Info.plist ExpirCalc-Info.plist
+cCopyStringsFile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib
+cCompileXIB /Users/James/Desktop/ExpirCalc/addevent.xib
+cProcessPCH /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch.gch ExpirCalc_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/main.o /Users/James/Desktop/ExpirCalc/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalcAppDelegate.o /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/_Entry.o /Users/James/Desktop/ExpirCalc/_Entry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindow.o /Users/James/Desktop/ExpirCalc/MainWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindow.o /Users/James/Desktop/ExpirCalc/EventWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/DataController.o /Users/James/Desktop/ExpirCalc/DataController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/TableViewController.o /Users/James/Desktop/ExpirCalc/TableViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindowController.o /Users/James/Desktop/ExpirCalc/EventWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D2C907700000000000000EE
+t1294766199
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/James/Desktop/ExpirCalc/AddEventWindowController.h
+c00000000592C906E000000000000043B
+t1496092782
+s1083
+i<Cocoa/Cocoa.h>
+i"_Entry.h"
+i"DataController.h"
+
+N/Users/James/Desktop/ExpirCalc/AddEventWindowController.m
+c00000000592C860C0000000000000569
+t1496090124
+s1385
+i"AddEventWindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/DataController.h
+c00000000592C9E400000000000000310
+t1496096320
+s784
+i<Cocoa/Cocoa.h>
+i"_Entry.h"
+
+N/Users/James/Desktop/ExpirCalc/DataController.m
+c00000000592CA04C0000000000000BAB
+t1496096844
+s2987
+i"DataController.h"
+
+N/Users/James/Desktop/ExpirCalc/English.lproj/InfoPlist.strings
+c00000000592A2963000000000000002D
+t1495935331
+s45
+
+N/Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib
+c00000000592CA4CB0000000000035D40
+t1496097995
+s220480
+
+N/Users/James/Desktop/ExpirCalc/EventWindow.h
+c00000000592CA23B000000000000049C
+t1496097339
+s1180
+i<Cocoa/Cocoa.h>
+i"_Entry.h"
+i"DataController.h"
+
+N/Users/James/Desktop/ExpirCalc/EventWindow.m
+c00000000592CA2400000000000000721
+t1496097344
+s1825
+i"EventWindow.h"
+
+N/Users/James/Desktop/ExpirCalc/EventWindowController.h
+c00000000592CA756000000000000027A
+t1496098646
+s634
+i<Cocoa/Cocoa.h>
+i"EventWindow.h"
+
+N/Users/James/Desktop/ExpirCalc/EventWindowController.m
+c00000000592CA74E00000000000005A2
+t1496098638
+s1442
+i"EventWindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h
+c00000000592CB1720000000000000163
+t1496101234
+s355
+i<Cocoa/Cocoa.h>
+i"MainWindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m
+c00000000592CB18600000000000001F5
+t1496101254
+s501
+i"ExpirCalcAppDelegate.h"
+
+N/Users/James/Desktop/ExpirCalc/ExpirCalc_Prefix.pch
+c00000000592A29630000000000000095
+t1495935331
+s149
+i<Cocoa/Cocoa.h>
+
+N/Users/James/Desktop/ExpirCalc/FileHandler.h
+c00000000592B474900000000000000E2
+t1496008521
+s226
+i<Cocoa/Cocoa.h>
+
+N/Users/James/Desktop/ExpirCalc/FileHandler.m
+c00000000592B476000000000000000CD
+t1496008544
+s205
+i"FileHandler.h"
+
+N/Users/James/Desktop/ExpirCalc/MainWindow.h
+c00000000592CB325000000000000038F
+t1496101669
+s911
+i<Cocoa/Cocoa.h>
+i"DataController.h"
+i"TableViewController.h"
+
+N/Users/James/Desktop/ExpirCalc/MainWindow.m
+c00000000592CB33900000000000007B2
+t1496101689
+s1970
+i"MainWindow.h"
+
+N/Users/James/Desktop/ExpirCalc/MainWindowController.h
+c00000000592CB29F0000000000000187
+t1496101535
+s391
+i<Cocoa/Cocoa.h>
+i"StartWindow.h"
+
+N/Users/James/Desktop/ExpirCalc/MainWindowController.m
+c00000000592CB29300000000000001A4
+t1496101523
+s420
+i"MainWindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/StartWindow.h
+c00000000592CB325000000000000038F
+t1496101669
+s911
+i<Cocoa/Cocoa.h>
+i"DataController.h"
+i"TableViewController.h"
+
+N/Users/James/Desktop/ExpirCalc/StartWindow.m
+c00000000592CB20F00000000000007B4
+t1496101391
+s1972
+i"StartWindow.h"
+
+N/Users/James/Desktop/ExpirCalc/TableViewController.h
+c00000000592C943A0000000000000272
+t1496093754
+s626
+i<Cocoa/Cocoa.h>
+i"DataController.h"
+i"EventWindow.h"
+i"EventWindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/TableViewController.m
+c00000000592CA5580000000000000B1E
+t1496098136
+s2846
+i"TableViewController.h"
+
+N/Users/James/Desktop/ExpirCalc/WindowController.h
+c00000000592C91CE000000000000024B
+t1496093134
+s587
+i<Cocoa/Cocoa.h>
+i"DataController.h"
+i"TableViewController.h"
+
+N/Users/James/Desktop/ExpirCalc/WindowController.m
+c00000000592B9E60000000000000052D
+t1496030816
+s1325
+i"WindowController.h"
+
+N/Users/James/Desktop/ExpirCalc/_Entry.h
+c00000000592BD8F500000000000002DA
+t1496045813
+s730
+i<Cocoa/Cocoa.h>
+
+N/Users/James/Desktop/ExpirCalc/_Entry.m
+c00000000592BD8ED0000000000000843
+t1496045805
+s2115
+i"_Entry.h"
+
+N/Users/James/Desktop/ExpirCalc/addevent.xib
+c00000000592C984E000000000000EA02
+t1496094798
+s59906
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app
+t2
+s0
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Info.plist
+t1496101722
+s892
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/MacOS/ExpirCalc
+t2
+s0
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/PkgInfo
+t1496101722
+s8
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1496101723
+s92
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/MainMenu.nib
+t1496101726
+s42367
+
+N/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/addevent.nib
+t1496101726
+s9294
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/AddEventWindowController.o
+t1496090400
+s29908
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/DataController.o
+t1496101767
+s16804
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindow.o
+t1496101767
+s27396
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindowController.o
+t1496101768
+s31496
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalc.LinkFileList
+c00000000592CB35A0000000000000389
+t1496101722
+s905
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalcAppDelegate.o
+t2
+s0
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/FileHandler.o
+t1496008690
+s5504
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindow.o
+t1496101767
+s30864
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindowController.o
+t1496101536
+s30164
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/StartWindow.o
+t1496101524
+s30924
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/TableViewController.o
+t1496101768
+s43312
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/WindowController.o
+t1496092867
+s25336
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/_Entry.o
+t1496101767
+s14000
+
+N/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/main.o
+t1496101767
+s4976
+
+N/Users/James/Desktop/ExpirCalc/main.m
+c00000000592A296300000000000000FF
+t1495935331
+s255
+i<Cocoa/Cocoa.h>
+
+N/var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch.gch
+t1496101766
+s54306576
+
+NExpirCalc-Info.plist
+c00000000592A296300000000000003EA
+t1495935331
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies517794522#517794522#0(0"0(0#1#0"549360#0"0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/AddEventWindowController.o /Users/James/Desktop/ExpirCalc/AddEventWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517783200.215921
+e517783200.858854
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/AddEventWindowController.o
+x/Users/James/Desktop/ExpirCalc/AddEventWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/James/Desktop/ExpirCalc/AddEventWindowController.m: In function '-[AddEventWindowController awakeFromNib]':
+o/Users/James/Desktop/ExpirCalc/AddEventWindowController.m:24: warning: comparison between pointer and integer
+lSLF07#2@65"Compile /Users/James/Desktop/ExpirCalc/AddEventWindowController.m517783200#517783200#0(225"/Users/James/Desktop/ExpirCalc/AddEventWindowController.m: In function '-[AddEventWindowController awakeFromNib]':/Users/James/Desktop/ExpirCalc/AddEventWindowController.m:24: warning: comparison between pointer and integer1(22@38"Comparison between pointer and integer517783200#115#110#0(6@57"/Users/James/Desktop/ExpirCalc/AddEventWindowController.m517782924#24#0#24#0#0"0(0#0#57"/Users/James/Desktop/ExpirCalc/AddEventWindowController.m549360#1442"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/AddEventWindowController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/AddEventWindowController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/DataController.o /Users/James/Desktop/ExpirCalc/DataController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794567.354011
+e517794567.866691
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/DataController.o
+x/Users/James/Desktop/ExpirCalc/DataController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/James/Desktop/ExpirCalc/DataController.m517794567#517794567#0(0"0(0#0#47"/Users/James/Desktop/ExpirCalc/DataController.m549360#1422"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/DataController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/DataController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindow.o /Users/James/Desktop/ExpirCalc/EventWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794567.310309
+e517794567.865427
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindow.o
+x/Users/James/Desktop/ExpirCalc/EventWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/James/Desktop/ExpirCalc/EventWindow.m: In function '-[EventWindow awakeFromNib]':
+o/Users/James/Desktop/ExpirCalc/EventWindow.m:27: warning: comparison between pointer and integer
+lSLF07#2@52"Compile /Users/James/Desktop/ExpirCalc/EventWindow.m517794567#517794567#0(186"/Users/James/Desktop/ExpirCalc/EventWindow.m: In function '-[EventWindow awakeFromNib]':/Users/James/Desktop/ExpirCalc/EventWindow.m:27: warning: comparison between pointer and integer1(22@38"Comparison between pointer and integer517794567#89#97#0(6@44"/Users/James/Desktop/ExpirCalc/EventWindow.m517790144#27#0#27#0#0"0(0#0#44"/Users/James/Desktop/ExpirCalc/EventWindow.m549360#1416"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/EventWindow.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindow.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindowController.o /Users/James/Desktop/ExpirCalc/EventWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794567.866776
+e517794568.250788
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindowController.o
+x/Users/James/Desktop/ExpirCalc/EventWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/James/Desktop/ExpirCalc/EventWindowController.m: In function '-[EventWindowController showWindow:]':
+o/Users/James/Desktop/ExpirCalc/EventWindowController.m:34: warning: incompatible Objective-C types 'struct NSWindow *', expected 'struct EventWindow *' when passing argument 1 of 'setEventWindow:' from distinct Objective-C type
+lSLF07#2@62"Compile /Users/James/Desktop/ExpirCalc/EventWindowController.m517794567#517794568#0(336"/Users/James/Desktop/ExpirCalc/EventWindowController.m: In function '-[EventWindowController showWindow:]':/Users/James/Desktop/ExpirCalc/EventWindowController.m:34: warning: incompatible Objective-C types 'struct NSWindow *', expected 'struct EventWindow *' when passing argument 1 of 'setEventWindow:' from distinct Objective-C type1(22@159"Incompatible Objective-C types 'struct NSWindow *', expected 'struct EventWindow *' when passing argument 1 of 'setEventWindow:' from distinct Objective-C type517794568#108#228#0(6@54"/Users/James/Desktop/ExpirCalc/EventWindowController.m517791438#34#0#34#0#0"0(0#0#54"/Users/James/Desktop/ExpirCalc/EventWindowController.m549360#1436"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/EventWindowController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/EventWindowController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalcAppDelegate.o /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794566.663407
+e517794566.993991
+r0
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalcAppDelegate.o
+x/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:9:
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h:10:33: error: MainWindowController.h: No such file or directory
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m: In function '-[ExpirCalcAppDelegate applicationDidFinishLaunching:]':
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: 'MainWindowController' undeclared (first use in this function)
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: (Each undeclared identifier is reported only once
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: for each function it appears in.)
+o/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: 'MC' undeclared (first use in this function)
+lSLF07#2@61"Compile /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m517794566#517794566#0(774"In file included from /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:9:/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h:10:33: error: MainWindowController.h: No such file or directory/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m: In function '-[ExpirCalcAppDelegate applicationDidFinishLaunching:]':/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: 'MainWindowController' undeclared (first use in this function)/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: (Each undeclared identifier is reported only once/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: for each function it appears in.)/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m:18: error: 'MC' undeclared (first use in this function)3(4@49"MainWindowController.h: No such file or directory517794566#79#118#2(7@75"In file included from /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m517794566#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m517794054#9#0#9#0#0"0(13@106"MainWindowController.h: No such file or directory in /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h517794566#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h517794034#10#0#10#0#0"0(6@53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.h517794034#10#0#10#0#28"*: No such file or directory0(4@62"'MainWindowController' undeclared (first use in this function)517794566#322#128#0(6@53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m517794054#18#0#18#0#43"'*' undeclared (first use in this function)0(4@44"'MC' undeclared (first use in this function)517794566#664#110#0(6@53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m517794054#18#0#18#0#43"'*' undeclared (first use in this function)0(0#0#53"/Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m549360#1434"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/ExpirCalcAppDelegate.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalcAppDelegate.o1#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/FileHandler.o /Users/James/Desktop/ExpirCalc/FileHandler.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517701490.527271
+e517701490.923614
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/FileHandler.o
+x/Users/James/Desktop/ExpirCalc/FileHandler.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/James/Desktop/ExpirCalc/FileHandler.m517701490#517701490#0(0"0(0#0#44"/Users/James/Desktop/ExpirCalc/FileHandler.m24653640#1416"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/FileHandler.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/FileHandler.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindow.o /Users/James/Desktop/ExpirCalc/MainWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794567.123394
+e517794567.353896
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindow.o
+x/Users/James/Desktop/ExpirCalc/MainWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/James/Desktop/ExpirCalc/MainWindow.m:9:
+o/Users/James/Desktop/ExpirCalc/MainWindow.h:25: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/MainWindow.h:26: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/MainWindow.m: In function '-[MainWindow deleteKeyPressed:]':
+o/Users/James/Desktop/ExpirCalc/MainWindow.m:85: warning: comparison between pointer and integer
+lSLF07#2@51"Compile /Users/James/Desktop/ExpirCalc/MainWindow.m517794567#517794567#0(469"In file included from /Users/James/Desktop/ExpirCalc/MainWindow.m:9:/Users/James/Desktop/ExpirCalc/MainWindow.h:25: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/MainWindow.h:26: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/MainWindow.m: In function '-[MainWindow deleteKeyPressed:]':/Users/James/Desktop/ExpirCalc/MainWindow.m:85: warning: comparison between pointer and integer3(22@48"Property attributes must be separated by a comma517794567#69#106#2(7@65"In file included from /Users/James/Desktop/ExpirCalc/MainWindow.m517794567#4294967295#0#0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.m517794489#9#0#9#0#0"0(13@95"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/MainWindow.h517794567#4294967295#0#0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.h517794469#25#0#25#0#0"0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.h517794469#25#0#25#0#0"0(22@48"Property attributes must be separated by a comma517794567#175#106#2(7@65"In file included from /Users/James/Desktop/ExpirCalc/MainWindow.m517794567#4294967295#0#0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.m517794489#9#0#9#0#0"0(13@95"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/MainWindow.h517794567#4294967295#0#0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.h517794469#26#0#26#0#0"0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.h517794469#26#0#26#0#0"0(22@38"Comparison between pointer and integer517794567#373#96#0(6@43"/Users/James/Desktop/ExpirCalc/MainWindow.m517794489#85#0#85#0#0"0(0#0#43"/Users/James/Desktop/ExpirCalc/MainWindow.m549360#1414"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/MainWindow.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindow.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindowController.o /Users/James/Desktop/ExpirCalc/MainWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794335.968540
+e517794336.243773
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindowController.o
+x/Users/James/Desktop/ExpirCalc/MainWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/James/Desktop/ExpirCalc/MainWindowController.h:10,
+o                 from /Users/James/Desktop/ExpirCalc/MainWindowController.m:9:
+o/Users/James/Desktop/ExpirCalc/StartWindow.h:26: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/StartWindow.h:27: warning: property attributes must be separated by a comma
+lSLF07#2@61"Compile /Users/James/Desktop/ExpirCalc/MainWindowController.m517794335#517794336#0(373"In file included from /Users/James/Desktop/ExpirCalc/MainWindowController.h:10,                 from /Users/James/Desktop/ExpirCalc/MainWindowController.m:9:/Users/James/Desktop/ExpirCalc/StartWindow.h:26: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/StartWindow.h:27: warning: property attributes must be separated by a comma2(22@48"Property attributes must be separated by a comma517794336#159#107#3(7@75"In file included from /Users/James/Desktop/ExpirCalc/MainWindowController.m517794336#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/MainWindowController.m517794323#9#0#9#0#0"0(7@75"In file included from /Users/James/Desktop/ExpirCalc/MainWindowController.h517794336#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/MainWindowController.h517794335#10#0#10#0#0"0(13@96"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/StartWindow.h517794336#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#26#0#26#0#0"0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#26#0#26#0#0"0(22@48"Property attributes must be separated by a comma517794336#266#107#3(7@75"In file included from /Users/James/Desktop/ExpirCalc/MainWindowController.m517794336#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/MainWindowController.m517794323#9#0#9#0#0"0(7@75"In file included from /Users/James/Desktop/ExpirCalc/MainWindowController.h517794336#4294967295#0#0(6@53"/Users/James/Desktop/ExpirCalc/MainWindowController.h517794335#10#0#10#0#0"0(13@96"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/StartWindow.h517794336#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#27#0#27#0#0"0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#27#0#27#0#0"0(0#0#53"/Users/James/Desktop/ExpirCalc/MainWindowController.m549360#1434"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/MainWindowController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/MainWindowController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/StartWindow.o /Users/James/Desktop/ExpirCalc/StartWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794323.290832
+e517794324.189148
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/StartWindow.o
+x/Users/James/Desktop/ExpirCalc/StartWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/James/Desktop/ExpirCalc/StartWindow.m:9:
+o/Users/James/Desktop/ExpirCalc/StartWindow.h:26: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/StartWindow.h:27: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/StartWindow.m: In function '-[StartWindow deleteKeyPressed:]':
+o/Users/James/Desktop/ExpirCalc/StartWindow.m:85: warning: comparison between pointer and integer
+lSLF07#2@52"Compile /Users/James/Desktop/ExpirCalc/StartWindow.m517794323#517794324#0(475"In file included from /Users/James/Desktop/ExpirCalc/StartWindow.m:9:/Users/James/Desktop/ExpirCalc/StartWindow.h:26: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/StartWindow.h:27: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/StartWindow.m: In function '-[StartWindow deleteKeyPressed:]':/Users/James/Desktop/ExpirCalc/StartWindow.m:85: warning: comparison between pointer and integer3(22@48"Property attributes must be separated by a comma517794324#70#107#2(7@66"In file included from /Users/James/Desktop/ExpirCalc/StartWindow.m517794324#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.m517794191#9#0#9#0#0"0(13@96"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/StartWindow.h517794324#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#26#0#26#0#0"0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#26#0#26#0#0"0(22@48"Property attributes must be separated by a comma517794324#177#107#2(7@66"In file included from /Users/James/Desktop/ExpirCalc/StartWindow.m517794324#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.m517794191#9#0#9#0#0"0(13@96"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/StartWindow.h517794324#4294967295#0#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#27#0#27#0#0"0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.h517794179#27#0#27#0#0"0(22@38"Comparison between pointer and integer517794324#378#97#0(6@44"/Users/James/Desktop/ExpirCalc/StartWindow.m517794191#85#0#85#0#0"0(0#0#44"/Users/James/Desktop/ExpirCalc/StartWindow.m549360#1416"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/StartWindow.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/StartWindow.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/TableViewController.o /Users/James/Desktop/ExpirCalc/TableViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794567.865535
+e517794568.271219
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/TableViewController.o
+x/Users/James/Desktop/ExpirCalc/TableViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/James/Desktop/ExpirCalc/TableViewController.m: In function '-[TableViewController tableView:objectValueForTableColumn:row:]':
+o/Users/James/Desktop/ExpirCalc/TableViewController.m:83: warning: incompatible Objective-C types 'struct NSDictionary *', expected 'struct NSMutableDictionary *' when passing argument 1 of 'getConstructedDeserializedObjectFromDictionary:' from distinct Objective-C type
+o/Users/James/Desktop/ExpirCalc/TableViewController.m:88: warning: incompatible Objective-C types 'struct NSDate *', expected 'struct NSString *' when passing argument 1 of 'setTitle:' from distinct Objective-C type
+lSLF07#2@60"Compile /Users/James/Desktop/ExpirCalc/TableViewController.m517794567#517794568#0(618"/Users/James/Desktop/ExpirCalc/TableViewController.m: In function '-[TableViewController tableView:objectValueForTableColumn:row:]':/Users/James/Desktop/ExpirCalc/TableViewController.m:83: warning: incompatible Objective-C types 'struct NSDictionary *', expected 'struct NSMutableDictionary *' when passing argument 1 of 'getConstructedDeserializedObjectFromDictionary:' from distinct Objective-C type/Users/James/Desktop/ExpirCalc/TableViewController.m:88: warning: incompatible Objective-C types 'struct NSDate *', expected 'struct NSString *' when passing argument 1 of 'setTitle:' from distinct Objective-C type2(22@203"Incompatible Objective-C types 'struct NSDictionary *', expected 'struct NSMutableDictionary *' when passing argument 1 of 'getConstructedDeserializedObjectFromDictionary:' from distinct Objective-C type517794568#133#270#0(6@52"/Users/James/Desktop/ExpirCalc/TableViewController.m517790936#83#0#83#0#0"0(22@148"Incompatible Objective-C types 'struct NSDate *', expected 'struct NSString *' when passing argument 1 of 'setTitle:' from distinct Objective-C type517794568#403#215#0(6@52"/Users/James/Desktop/ExpirCalc/TableViewController.m517790936#88#0#88#0#0"0(0#0#52"/Users/James/Desktop/ExpirCalc/TableViewController.m549360#1432"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/TableViewController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/TableViewController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/WindowController.o /Users/James/Desktop/ExpirCalc/WindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517785667.332450
+e517785667.747975
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/WindowController.o
+x/Users/James/Desktop/ExpirCalc/WindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/James/Desktop/ExpirCalc/WindowController.m:9:
+o/Users/James/Desktop/ExpirCalc/WindowController.h:23: warning: property attributes must be separated by a comma
+o/Users/James/Desktop/ExpirCalc/WindowController.h:24: warning: property attributes must be separated by a comma
+lSLF07#2@57"Compile /Users/James/Desktop/ExpirCalc/WindowController.m517785667#517785667#0(299"In file included from /Users/James/Desktop/ExpirCalc/WindowController.m:9:/Users/James/Desktop/ExpirCalc/WindowController.h:23: warning: property attributes must be separated by a comma/Users/James/Desktop/ExpirCalc/WindowController.h:24: warning: property attributes must be separated by a comma2(22@48"Property attributes must be separated by a comma517785667#75#112#2(7@71"In file included from /Users/James/Desktop/ExpirCalc/WindowController.m517785667#4294967295#0#0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.m517723616#9#0#9#0#0"0(13@101"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/WindowController.h517785667#4294967295#0#0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.h517723609#23#0#23#0#0"0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.h517723609#23#0#23#0#0"0(22@48"Property attributes must be separated by a comma517785667#187#112#2(7@71"In file included from /Users/James/Desktop/ExpirCalc/WindowController.m517785667#4294967295#0#0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.m517723616#9#0#9#0#0"0(13@101"Property attributes must be separated by a comma in /Users/James/Desktop/ExpirCalc/WindowController.h517785667#4294967295#0#0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.h517723609#24#0#24#0#0"0(6@49"/Users/James/Desktop/ExpirCalc/WindowController.h517723609#24#0#24#0#0"0(0#0#49"/Users/James/Desktop/ExpirCalc/WindowController.m549360#1426"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/WindowController.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/WindowController.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/_Entry.o /Users/James/Desktop/ExpirCalc/_Entry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794566.994095
+e517794567.310194
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/_Entry.o
+x/Users/James/Desktop/ExpirCalc/_Entry.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/James/Desktop/ExpirCalc/_Entry.m: In function '-[_Entry getDaysElapsed]':
+o/Users/James/Desktop/ExpirCalc/_Entry.m:29: warning: unused variable 'numberofhours'
+lSLF07#2@47"Compile /Users/James/Desktop/ExpirCalc/_Entry.m517794566#517794567#0(166"/Users/James/Desktop/ExpirCalc/_Entry.m: In function '-[_Entry getDaysElapsed]':/Users/James/Desktop/ExpirCalc/_Entry.m:29: warning: unused variable 'numberofhours'1(22@31"Unused variable 'numberofhours'517794567#81#85#0(6@39"/Users/James/Desktop/ExpirCalc/_Entry.m517738605#29#0#29#0#19"unused variable '*'0(0#0#39"/Users/James/Desktop/ExpirCalc/_Entry.m549360#1406"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/_Entry.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/_Entry.o0#
+
+CCompileC build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/main.o /Users/James/Desktop/ExpirCalc/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794566.661451
+e517794567.123282
+r1
+xCompileC
+xbuild/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/main.o
+x/Users/James/Desktop/ExpirCalc/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/James/Desktop/ExpirCalc/main.m517794566#517794567#0(0"0(0#0#37"/Users/James/Desktop/ExpirCalc/main.m549360#1402"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -include /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch -c /Users/James/Desktop/ExpirCalc/main.m -o /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib
+s517794522.244538
+e517794526.968837
+r1
+xCompileXIB
+x/Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib:562: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib517794522#517794526#0(144"/* com.apple.ibtool.document.notices *//Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib:562: note: This view is clipping its content.1(13@34"This view is clipping its content.517794526#4294967295#0#0(6@57"/Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib517790795#562#0#562#0#0"0(0#0#57"/Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib549360#342"    cd /Users/James/Desktop/ExpirCalc    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/MainMenu.nib /Users/James/Desktop/ExpirCalc/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/James/Desktop/ExpirCalc/addevent.xib
+s517794523.929474
+e517794526.889540
+r1
+xCompileXIB
+x/Users/James/Desktop/ExpirCalc/addevent.xib
+lSLF07#2@23"CompileXIB addevent.xib517794523#517794526#0(0"0(0#0#43"/Users/James/Desktop/ExpirCalc/addevent.xib549360#314"    cd /Users/James/Desktop/ExpirCalc    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/addevent.nib /Users/James/Desktop/ExpirCalc/addevent.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s517794522.243567
+e517794523.929195
+r1
+xCopyStringsFile
+x/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings517794522#517794523#0(0"0(0#0#62"/Users/James/Desktop/ExpirCalc/English.lproj/InfoPlist.strings549360#351"    cd /Users/James/Desktop/ExpirCalc    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Resources/English.lproj0#
+
+CLd /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/MacOS/ExpirCalc normal x86_64
+s517794513.609751
+e517794513.679336
+r0
+xLd
+x/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/MacOS/ExpirCalc
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_OBJC_CLASS_$_MainWindowController", referenced from:
+o      objc-class-ref-to-MainWindowController in ExpirCalcAppDelegate.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@86"Link /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/MacOS/ExpirCalc517794513#517794513#0(207"Undefined symbols:  "_OBJC_CLASS_$_MainWindowController", referenced from:      objc-class-ref-to-MainWindowController in ExpirCalcAppDelegate.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@54""_OBJC_CLASS_$_MainWindowController", referenced from:517794513#19#57#0(6@0"517794513#0#0#0#0#0"0(13@64"Objc-class-ref-to-MainWindowController in ExpirCalcAppDelegate.o517794513#76#71#0(6@0"517794513#0#0#0#0#0"0(13@19"Symbol(s) not found517794513#147#24#0(6@0"517794513#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status517794513#171#36#0(6@0"517794513#0#0#0#0#0"0(0#0#0"549360#512"    cd /Users/James/Desktop/ExpirCalc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/James/Desktop/ExpirCalc/build/Debug -F/Users/James/Desktop/ExpirCalc/build/Debug -filelist /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/Objects-normal/x86_64/ExpirCalc.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/MacOS/ExpirCalc1#
+
+CProcessInfoPlistFile /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Info.plist ExpirCalc-Info.plist
+s517794522.225577
+e517794522.243470
+r1
+xProcessInfoPlistFile
+x/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Info.plist
+xExpirCalc-Info.plist
+lSLF07#2@28"Process ExpirCalc-Info.plist517794522#517794522#0(0"0(0#0#51"/Users/James/Desktop/ExpirCalc/ExpirCalc-Info.plist549360#292"    cd /Users/James/Desktop/ExpirCalc    builtin-infoPlistUtility ExpirCalc-Info.plist -genpkginfo /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch.gch ExpirCalc_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s517794526.968980
+e517794566.661055
+r1
+xProcessPCH
+x/var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch.gch
+xExpirCalc_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ExpirCalc_Prefix.pch517794526#517794566#0(0"0(0#0#51"/Users/James/Desktop/ExpirCalc/ExpirCalc_Prefix.pch549360#1314"    cd /Users/James/Desktop/ExpirCalc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-generated-files.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-own-target-headers.hmap -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-all-target-headers.hmap -iquote /Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/ExpirCalc-project-headers.hmap -F/Users/James/Desktop/ExpirCalc/build/Debug -I/Users/James/Desktop/ExpirCalc/build/Debug/include -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources/x86_64 -I/Users/James/Desktop/ExpirCalc/build/ExpirCalc.build/Debug/ExpirCalc.build/DerivedSources -c /Users/James/Desktop/ExpirCalc/ExpirCalc_Prefix.pch -o /var/folders/x9/x9rkQLuhFjGg1KDPWN0TMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpirCalc_Prefix-cmuukvfepuwqodfuvustrnvaelea/ExpirCalc_Prefix.pch.gch0#
+
+CTouch /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app
+s517794337.330787
+e517794337.354690
+r1
+xTouch
+x/Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app
+lSLF07#2@62"Touch /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app517794337#517794337#0(0"0(0#0#0"549360#117"    cd /Users/James/Desktop/ExpirCalc    /usr/bin/touch -c /Users/James/Desktop/ExpirCalc/build/Debug/ExpirCalc.app0#
+
